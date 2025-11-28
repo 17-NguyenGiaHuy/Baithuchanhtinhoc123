@@ -4,32 +4,105 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 40px;
+        }
+
+        .left, .right {
+            width: 45%;
+            padding: 20px;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+            width: 100%;
+        }
+
+        h2 {
+            color: red;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 style="color: Blue; text-align: center;"> Gioi Thieu </h1>
-    <table>
-         <tr> 
-             <td width="30%" style="text-align: center, vertical-align: top;">
-                <img src="images/channels4_profile.jpg" alt="Me posing" width="300" />
-             </td>
-              <td>
-                <h2 style="color: red;"> Nickname: </h2>
-                Turtle AW
-                <h2 style="color: red; ;"> Hobby: </h2>
-                - Reading, preaching, and aw.<br>
-                - Wander around to see and perceive human nature. <br>
-                - Cloth the naked, help the poor, and foreost lead them to the lord.<br>
-                - Loving and sharing to the public<br>
-                <h2 style="color: red; "> My advantages: </h2>
-                - Faith, Strong analytical mindset, Deep thinking.<br>
-                - Compassion, naivity, the truth.<br>
-                <h2 style="color: red; "> Dream: </h2>
-                 - have the ultimate answer for the meaning of life which so called heaven, having no doubts.<br>
-                 - Obeying the lor for good.<br>
-                 - Having children with a faithful wife.<br>
-              </td>
-         </tr>
-    </table>
+    <div class="container">
+        <!-- Left Section (Image) -->
+        <div class="left">
+            <img src="images/channels4_profile.jpg" alt="Me posing" />
+        </div>
+
+        <!-- Right Section (Text) -->
+        <div class="right">
+            <h1>Giới Thiệu</h1>
+
+            <h2>Nickname:</h2>
+            <p>Turtle AW</p>
+
+            <h2>Hobby:</h2>
+            <ul>
+                <li>Reading, preaching, and aw.</li>
+                <li>Wander around to see and perceive human nature.</li>
+                <li>Clothe the naked, help the poor, and foremost lead them to the Lord.</li>
+                <li>Loving and sharing with the public.</li>
+            </ul>
+
+            <h2>My Advantages:</h2>
+            <ul>
+                <li>Faith, Strong analytical mindset, Deep thinking.</li>
+                <li>Compassion, naivety, the truth.</li>
+            </ul>
+
+            <h2>Dream:</h2>
+            <ul>
+                <li>Have the ultimate answer for the meaning of life, which is called heaven, having no doubts.</li>
+                <li>Obey the Lord for good.</li>
+                <li>Have children with a faithful wife.</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
