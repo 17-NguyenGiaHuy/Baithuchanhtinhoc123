@@ -71,7 +71,7 @@
     <div class="container">
         <!-- Left Section (Image) -->
         <div class="left">
-            <img src="images/channels4_profile.jpg" alt="Me posing" />
+            <img src="../images/channels4_profile.jpg" alt="Me posing" />
         </div>
 
         <!-- Right Section (Text) -->
